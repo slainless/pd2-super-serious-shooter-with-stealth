@@ -29,7 +29,7 @@ Skills that affect stealth run, equipment, or cable ties are preserved. The chan
 
 - Mastermind
     - Medic
-        - **Uppers**. Note: Ace upgrade deviate from SSS core idea but I can't be bothered to disable the auto apply kit mechanic.
+        - **Uppers**. Note: Auto apply kit mechanic is disabled.
         - **Combat Doctor**: Extra doctor bag
     - Controller
         - **Forced Friendship** base skill: Extra cable ties
@@ -57,7 +57,7 @@ Skills that affect stealth run, equipment, or cable ties are preserved. The chan
         - **Inner Pocket**: Concealment bonus
     - Silent Killer
         - **Optic Illusions** ace skill: Bonus concealment for silenced weapons
-        - **High Value Target**: Marking duration boost. The damage bonus is a bit broken and i will probably try to reduce this buff later.
+        - **High Value Target**: Marking duration boost. Note: The damage bonus is disabled.
 
 ## Player Changes
 

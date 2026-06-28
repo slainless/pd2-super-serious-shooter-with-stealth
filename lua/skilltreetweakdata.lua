@@ -39,6 +39,19 @@ local preserved_skills = {
 			hitman = {[2]=true}, -- high value target
 }
 
+local function remove_upgrade(upgrades_table, ...)
+	local lookup = {}
+	for _, upgrade_name in ipairs({ ... }) do
+		lookup[upgrade_name] = true
+	end
+	
+	for i = #upgrades_table, 1, -1 do
+		if lookup[upgrades_table[i]] then
+			table.remove(upgrades_table, i)
+		end
+	end
+end
+
 Hooks:PostHook(SkillTreeTweakData, "init", "init_sss", function (self, tweak_data)
 	for skill_name, skill_data in pairs(self.skills) do
 		local preserve = preserved_skills[skill_name]
@@ -53,7 +66,14 @@ Hooks:PostHook(SkillTreeTweakData, "init", "init_sss", function (self, tweak_dat
 			for tier_index, tier_data in ipairs(skill_data) do
 				if preserve == nil or not preserve[tier_index] then
 					tier_data.upgrades = {}
-					tier_data.desc_id = "sss_tier_disabled_desc"
+				end
+
+				if skill_name == "hitman" and tier_index == 2 then
+					remove_upgrade(tier_data.upgrades, "player_marked_inc_dmg_distance_1")
+				end
+				
+				if skill_name == "tea_cookies" and tier_index == 2 then
+					remove_upgrade(tier_data.upgrades, "first_aid_kit_auto_recovery_1")
 				end
 			end
 		end

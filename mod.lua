@@ -35,6 +35,8 @@ if not SuperSeriousShooter then
 			sss_skill_disabled_desc = "This skill is disabled",
 			sss_tier_disabled_desc = "Disabled",
 
+			menu_tea_cookies_beta_desc = "BASIC: ##$basic;##$NL;Adds ##$multibasic2;## more First Aid Kits to your inventory.$NL;$NL;ACE: ##$pro;##$NL;Adds ##$multipro3;## First Aid Kits to your inventory.",
+
 			-- these can be done programmatically via gsub-ing but im too lazy ¯\_(ツ)_/¯
 			menu_triathlete_beta_desc = "BASIC: ##$basic;##$NL;Increases your supply of cable ties by ##$multibasic2;##. You can cable tie hostages ##$multibasic3;## faster. $NL;$NL;ACE: ##$pro;##$NL;This upgrade is disabled.",
 			menu_pack_mule_beta_desc = "BASIC: ##$basic;##$NL;You can throw bags ##$multibasic;## further.$NL;$NL;ACE: ##$pro;##$NL;This upgrade is disabled.",
@@ -43,7 +45,7 @@ if not SuperSeriousShooter then
 			menu_engineering_beta_desc = "BASIC: ##$basic;##$NL;You can now select a less noisy version of the sentry guns, making them much less likely to be targeted by enemies.$NL;$NL;ACE: ##$pro;##$NL;This upgrade is disabled.",
 			
 			menu_optic_illusions_desc = "BASIC: ##$basic;##$NL;This upgrade is disabled.$NL;$NL;ACE: ##$pro;##$NL;You gain ##$multipro;## concealment for each silenced weapon you equip and reduces the concealment penalty of silencers by ##$multipro2;##.",
-			menu_spotter_teamwork_beta_desc = "BASIC: ##$basic;##$NL;This upgrade is disabled.$NL;$NL;ACE: ##$pro;##$NL;Enemies you mark take an additional ##$multipro;## damage when further away than ##$multipro2;## meters.$NL;Increase the duration of marked enemies by ##$multipro3;## and you can now mark specials by aiming at them with any weapon.",
+			menu_spotter_teamwork_beta_desc = "BASIC: ##$basic;##$NL;This upgrade is disabled.$NL;$NL;ACE: ##$pro;##$NL;Increase the duration of marked enemies by ##$multipro3;## and you can now mark specials by aiming at them with any weapon.",
 		})
 	end)
 end
