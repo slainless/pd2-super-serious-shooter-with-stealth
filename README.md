@@ -20,6 +20,7 @@ This fork brings back skills to restore stealth support and equipment-related up
     - Reenable ECM jammer feedback, retrigger, and interaction speed multiplier
     - Revert free silent sentry gun
     - Revert additional asset. Must be unlocked via Sixth Sense
+- Unlock Pocket ECM, Smoke Grenade, and Kingpin Injector with cooldown reduction mechanism disabled.
 
 As a consequence, loud heists can benefit from the stealth skills and/or enginering skills all the time since you can practically build a dedicated skillset that picks only the preserved skills. This of course will be quite broken for certain cases, such as skipping saw in favor of nimble (lockpicking) skill in some heist.
 
@@ -89,7 +90,6 @@ Skills that affect stealth run, equipment, or cable ties are preserved. The chan
 - Enemy amount is reduced
 - Special enemies other than Shields are disabled (other specials can still spawn as scripted spawns)
 - The "One Down" modifier is replaced with "Special Operation" which re-enables special spawns
-- Tasers and Cloakers deal health damage with their special attacks
 - Enemies will only surrender during assault breaks or when they are retreating
 - Enemy accuracy is reduced while they move
 - Enemy logic update rate is increased

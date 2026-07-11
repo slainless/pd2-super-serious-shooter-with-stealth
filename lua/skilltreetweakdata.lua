@@ -154,5 +154,15 @@ Hooks:PostHook(SkillTreeTweakData, "init", "init_sss", function (self, tweak_dat
 		-- "player_buy_bodybags_asset",  -- disabled to make it depends on skill instead
 		-- "player_additional_assets",  -- disabled to make it depends on skill instead
 		-- "player_buy_spotter_asset"  -- disabled to make it depends on skill instead
+
+		-- PERK DECK
+		-- kingpin
+		"temporary_chico_injector_1",
+		"chico_injector", -- cooldown: managers/playermanager.lua:6081 (speed_up_chico_injector)
+		-- sicario
+		"smoke_screen_grenade", -- cooldown: managers/playermanager.lua:362 (speed_up_smoke_grenade)
+		-- pocket ecm
+		"pocket_ecm_jammer", -- cooldown: managers/playermanager.lua:6111 (speed_up_pocket_ecm_jammer)
+		"player_pocket_ecm_jammer_base",
 	}
 end)

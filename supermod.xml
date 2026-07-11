@@ -13,6 +13,7 @@
 				<post :hook_id="mission/elementspawnenemydummy"/>
 				<post :hook_id="blackmarketmanager"/>
 				<post :hook_id="killzonemanager"/>
+				<post :hook_id="playermanager"/>
 			</group>
 
 			<group :hook_id="tweak_data/">
