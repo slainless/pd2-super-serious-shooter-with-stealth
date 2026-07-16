@@ -32,7 +32,7 @@ local preserved_skills = {
 			ecm_booster = true, -- ecm overdrive
 			ecm_2x = true, -- ecm specialist
 		-- artful dodger
-			awareness = true, -- parkour
+			-- awareness = true, -- parkour
 			thick_skin = true, -- inner pocket
 		-- silent killer
 			optic_illusions = {[2]=true},
@@ -93,7 +93,7 @@ Hooks:PostHook(SkillTreeTweakData, "init", "init_sss", function (self, tweak_dat
 	self.default_upgrades = {
 		"player_fall_damage_multiplier",
 		-- "player_fall_health_damage_multiplier", -- default
-		"player_silent_kill", -- reenabled to support stealth run?
+		-- "player_silent_kill", -- reenabled to support stealth run?
 		"player_primary_weapon_when_downed",
 		"player_intimidate_enemies",
 		"player_special_enemy_highlight",
@@ -102,12 +102,12 @@ Hooks:PostHook(SkillTreeTweakData, "init", "init_sss", function (self, tweak_dat
 		"player_corpse_dispose",
 		"player_corpse_dispose_amount_1",
 		-- "player_civ_harmless_melee", -- default
-		"player_walk_speed_multiplier", -- readded for stealth
+		-- "player_walk_speed_multiplier", -- readded for stealth
 		-- "player_steelsight_when_downed",
-		"player_crouch_speed_multiplier",  -- readded for stealth
-		"carry_interact_speed_multiplier_1", -- readded for stealth
-		"carry_interact_speed_multiplier_2", -- readded for stealth
-		"carry_movement_speed_multiplier", -- readded for stealth
+		-- "player_crouch_speed_multiplier",  -- readded for stealth
+		-- "carry_interact_speed_multiplier_1", -- readded for stealth
+		-- "carry_interact_speed_multiplier_2", -- readded for stealth
+		-- "carry_movement_speed_multiplier", -- readded for stealth
 		"trip_mine_sensor_toggle", -- readded for stealth
 		"trip_mine_sensor_highlight", -- readded for stealth
 		"trip_mine_can_switch_on_off", -- readded for stealth
